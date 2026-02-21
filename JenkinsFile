@@ -3,7 +3,7 @@ agent any
 stages {
 stage('clone') {
 steps {
-git branch:'main', url: 'https://github.com/AdityaJadhav150/TEST.git’;
+git branch:'main', url: 'https://github.com/sowjanya-it/Jenkinsjavaparam.git’;
 }
 }
 stage('compile') {
